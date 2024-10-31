@@ -1,0 +1,64 @@
+.onepay_dd_select select{      
+    width: 100%!important;
+}
+.payment_method_onepay *{     box-sizing: border-box;}
+.onepaycard{ 
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    background: #f4f4f4;}
+
+.payment_method_onepay label img{ width: 100%!important;
+    margin: 0!important; 
+    max-height: none!important;     
+    float: none!important;
+    max-width: 100%!important;
+    margin-top: 10px!important;}
+
+.payment_box.payment_method_onepay{ padding:0!important;}
+
+.onepaycard .pb-0 {
+    padding-bottom: 0!important;
+}
+.onepaycard .mb-0 {
+    margin-bottom: 0!important;
+}
+
+.onepaycard .monthyearlayout{}
+.onepaycard .expmonth{ margin-right:10px!important;}
+
+.onepaycard .monthyearlayout .col {
+    flex: 1 0 0%;
+        /*margin: 0;*/
+}
+
+.woocommerce-page input[type="radio"][name="payment_method"] ~ .payment_box{ padding-left: 0;}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+ .onepaycard input[type="text"]{   
+     padding: 10px;
+    background: #fff;
+    border: 1px solid #e1e1e1!important;
+    height: 50px;
+    outline: 0;
+     }
+      .onepaycard select{   
+     padding: 0px 10px;
+    background: #fff;
+    border: 1px solid #e1e1e1!important;
+    height: 50px;
+    outline: 0;
+     }
+      .onepaycard .form-row{ margin-top: 0!important; padding-bottom: 0!important;     margin-bottom: 10px!important;}
+      .payment_method_onepay input[type=radio] + label{ padding-left: 0; }
+      .payment_method_onepay:before{ display: none!important; }
+
+      
